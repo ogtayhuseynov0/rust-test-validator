@@ -1,0 +1,14 @@
+[package]
+name = "val-test"
+version = "0.1.0"
+edition = "2018"
+description = "test lib for crate"
+license = "MIT"
+license-file = "https://github.com/ogtayhuseynov0/rust-test-validator"
+documentation="https://github.com/ogtayhuseynov0/rust-test-validator"
+homepage="https://github.com/ogtayhuseynov0/rust-test-validator"
+repository="https://github.com/ogtayhuseynov0/rust-test-validator"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde_json = "1"
