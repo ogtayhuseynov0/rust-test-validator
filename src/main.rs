@@ -4,5 +4,5 @@ use val_test::validate::Message;
 
 fn main() {
     let vl = serde_json::json!({ "ros": true});
-    println!("{:?}", validate(vl,"ros",Rules::Required, Message{messages: vec!["asd".to_string()]} ))
+    println!("{:?}", validate(vl,"ro",Rules::Required, Message{messages: vec!["asd".to_string()]} ))
 }
