@@ -1,3 +1,5 @@
+//! It is validate with message, rules and ValidationResult
+
 pub mod validate {
     pub enum Rules {
         Required
