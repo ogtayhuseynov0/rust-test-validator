@@ -11,3 +11,4 @@ repository="https://github.com/ogtayhuseynov0/rust-test-validator"
 
 [dependencies]
 serde_json = "1"
+regex = "1"
