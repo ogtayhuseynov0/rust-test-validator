@@ -1,9 +1,12 @@
-//! It is validate with message, rules and ValidationResult
-//! Example below:
-//!  let rules_hash: HashMap<&str, Vec<Rules>> = rule_map![
-//!        "ros" => vec![Rules::In {value: "123,asd,123".to_string()}],
-//!        "ross" => vec![Rules::GreaterThan {field:"as".to_string()}]
-//!     ];
+//! It is validate with message, rules and ValidationResult <br/>
+
+
+//! Example below: <br/> <br/> <br/>
+//! <pre>
+//!  let rules_hash: HashMap<&str, Vec<Rules>> = rule_map![<br/>
+//!        "ros" => vec![Rules::In {value: "123,asd,123".to_string()}],<br/>
+//!        "ross" => vec![Rules::GreaterThan {field:"as".to_string()}]<br/>
+//!     ];<br/></pre>
 #[macro_export]
 macro_rules! rule_map {
     ($( $key: expr => $val: expr ),*) => {{
